@@ -1,5 +1,6 @@
 <script setup>
 import navbar from "@/components/navbar.vue";
+import footer1 from '../components/footer.vue'
 import Offer1 from "../components/Offer1.vue"
 import Offer2 from "../components/Offer2.vue"
 import Offer3 from "../components/Offer3.vue"
@@ -118,7 +119,7 @@ behavior:</p>
       </div>
     </div>
     </div>
-    <div class="flex flex-col relative w-full">
+    <div class="flex flex-col relative w-full gap-20">
     <p class="text-[28px] font-Oswald-Bold tracking-wider text-center text-white py-8">
       So What We Offer ?
     </p>
@@ -133,12 +134,36 @@ behavior:</p>
       <Offer2></Offer2>
       <Offer1></Offer1>
       <Offer3></Offer3>
-      
-
+      </div>
+    
+    </div>
+    <div class="flex justify-between w-[90%] mx-auto py-12">
+      <div class="flex flex-col gap-1 items-center font-Oswald-Bold text-[24px]">
+        <p>100000</p>
+        <p>Current major bitcoin (BTC)</p>
+      </div>
+      <div class="flex flex-col gap-1 items-center font-Oswald-Bold text-[24px]">
+        <p>100000</p>
+        <p>Tokens Used
+</p>
+      </div>
+      <div class="flex flex-col gap-1 items-center font-Oswald-Bold text-[24px]">
+        <p>100000</p>
+        <p>Bitcoins Sold
+</p>
+      </div>
+      <div class="flex flex-col gap-1 items-center font-Oswald-Bold text-[24px]">
+        <p>100000</p>
+        <p>Worldwide
+</p>
       </div>
     </div>
+    <div class="flex flex-col gap-10 w-[90%] mx-auto ">
+      <h3 class="text-center font-Oswald-Bold text-[38px] ">Big Bang Featurs</h3>
+      <Offer1 v-for="i in 8"></Offer1>
     </div>
-    
+    </div>
+    <footer1></footer1>
   </div>
 </template>
 <style scoped>
