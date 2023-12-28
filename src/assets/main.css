@@ -1,0 +1,39 @@
+@import url(base.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: Oswald-Bold;
+    src: url(../assets/fonts/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: Oswald-Regular;
+    src: url(../assets/fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: Oswald-Medium;
+    src: url(../assets/fonts/Oswald-Medium.ttf);
+}
+body{
+    background-color: #181D27;
+    color: white;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
