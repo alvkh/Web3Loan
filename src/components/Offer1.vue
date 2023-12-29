@@ -20,8 +20,7 @@
             </radialGradient>
           </defs>
         </svg>
-        <p class="card-title">Zero-cost Possibilities</p>
-        <p class="card-description">Hubble lets users borrow USDH for a one-time 0.5% fee. No variable rates. No interest charged, ever.</p>
+        <slot />
       </div>
     </div>
   </div>

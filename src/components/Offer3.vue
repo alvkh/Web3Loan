@@ -20,8 +20,8 @@
             </radialGradient>
           </defs>
         </svg>
-        <p class="card-title">Get Yield on Deposits</p>
-        <p class="card-description">While your collateral is deposited, delegate it to earn the highest yield available in the Solana ecosystem.</p>
+        <slot />
+
       </div>
     </div>
 

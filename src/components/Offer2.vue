@@ -24,8 +24,7 @@
             </radialGradient>
           </defs>
         </svg>
-        <p class="card-title">Multi-Asset Collateral</p>
-        <p class="card-description">Deposit a variety of assets on Hubble, raise your collateral ratio, and unlock the liquidity in your wallet.</p>
+        <slot />
       </div>
     </div>
   </div>

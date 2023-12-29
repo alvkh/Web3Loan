@@ -1,0 +1,22 @@
+{
+    "EN":{
+        "title1":"The Loan is Instand",
+        "text1":"The loan is instant. By depositing the desired amount of cryptocurrency to the Big Bang contract as collateral, you will immediately receive the native Big Bang token with the abbreviation (BGBT).                         ",
+        "title2":"Loan Resive By defualt is 90%!!",
+        "text2":"the amount of the loan received by default is equal to 90% of the value of the collateral. (This amount is the same for all collaterals accepted by the platform)",
+        "title3":"The loan percentage is flexible.",
+        "text3":"The meaning of flexibility is that users can vote to increase or decrease the percentage of received loans by paying Big Bang native token. The owners of Big Bang tokens can vote for the borrowing percentage up to a maximum of 96% and a minimum of 20%.",
+        "title4":"30 days to repay",
+        "text4":"When you receive a loan from the Big Bang platform, you have 30 days to repay it. During this period, your collateral will not be confiscated due to market fluctuations and price drops, because on the Big Bang platform, loans are paid in native Big Bang tokens, and the price of the Big Bang token depends on the value of the collateral (an asset locked in the platform).",
+        "title5":"The Formula",
+        "text5":"The price of each Big Bang token is calculated through the following formulTotal value of assets locked in the platform divided by The total number of tokens paid (spent) is Big BangFor Exampleif the total value of assets locked in the Big Bang platform is 20 million dollars, and if the number of Big Bang tokens that have been consumed and paid as loans (existing in the market) are 2 million units, then the price of each Big Bang token is 1 dollar.Notethat it is obvious that the price of Big Bang should decrease as the value of the collateral decreases during a market crash because the price of Big Bang is dependent on the collateral locked in the platform, but this is usually unlikely to happen because:When you deposit collateral on the Big Bang platform, you receive a loan of 90% of its value, and 10% of the collateral value remains on the platform. Suppose 10 people deposit collateral and each of them received a loan of 90% of the collateral value. In this case, each borrower leaves 10% of their collateral value on the platform, which makes a total of 100%.Therefore, the amount of excess value of collaterals increases the price of Big Bang and also prevents the price of Big Bang from falling, even sometimes it causes an unprecedented increase in the price of Big Bang. This behavior on the Big Bang platform ensures that collateral is not confiscated when the market declines.",
+        "title6":"Very low fees when borrowing.",
+        "text6":"When you deposit the collateral, you immediately receive the native token of the platform, and your asset has made the Big Bang token valuable and entered the market cycle. Therefore, you did not use anyone's capital to borrow, so you do not need to pay a fee. Of course, a small fee, which may be 0.5%, will be deducted from the total loan amount for the developer of the contract and project development.",
+        "title7":"diversity in collaterals.",
+        "text7":"The Big Bang platform supports different assets and you can deposit different currencies as collateral.",
+        "title8":"access to diverse collateral when seizing them",
+        "text8":"Loans on the Big Bang platform have 30 days to be repaid. If a person receives a loan from Big Bang, he has 30 days to repay his loan. During this period, it is the collateral of private individuals and no one has access to it except the owner. But after 30 days, the locked collateral will be released on the platform and all people who have Big Bang tokens can repay the loan and withdraw the collateral.",
+        "title9":"Limited Number Of BigBang Token",
+        "text9":"the total number of Big Bang tokens will be 200 million units, so due to the limited number of Big Bang coins in circulation, its value will always be maintained and keeping these tokens will be profitable."
+    }
+}

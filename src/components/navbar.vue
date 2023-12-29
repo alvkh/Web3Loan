@@ -6,9 +6,9 @@
         </div>
         <div class="flex gap-9 font-Oswald-Bold text-[18px] items-center">
             <router-link class="hover:text-[#0058AD] tracking-wider transition-all" to="/">Home</router-link>
-            <router-link class="hover:text-[#0058AD] tracking-wider transition-all" to="/">Big Bang Loan</router-link>
-            <router-link class="hover:text-[#0058AD] tracking-wider transition-all" to="/">Contact Us</router-link>
+            <router-link class="hover:text-[#0058AD] tracking-wider transition-all" to="/loan">Big Bang Loan</router-link>
+            <router-link class="hover:text-[#0058AD] tracking-wider transition-all" to="/contactus">Contact Us</router-link>
         </div>
-        <button class="bg-transparent text-[18px] hover:bg-[#0058AD] transition-all border font-Oswald-Regular tracking-wider border-[#303030] px-5 py-3 rounded-3xl"> Open Wallet </button>
+        <button class="bg-transparent text-[18px] hover:bg-[#0058AD] transition-all border font-Oswald-Regular tracking-wider border-[#303030] px-5 py-3 rounded-3xl"> Connect Wallet </button>
     </div>
 </template>
