@@ -4,7 +4,7 @@
 
          <div class="z-10 grid grid-cols-12 w-[90%] mx-auto gap-4 p-6 border-gray-700 border-b-2 ">
             <div class="col-span-3 flex flex-col gap-4">
-                <img src="../assets/img/logo.png" alt="">
+                <img class="rounded-full img-fade " src="../assets/img/main.png" alt="">
             </div>
             <div class="col-span-3 flex flex-col gap-4">
                     <p class="text-[24px] font-Oswald-Bold tracking-wider p-4 border-b-2 border-gray-700 ">Quick Links</p>
@@ -35,3 +35,11 @@
         
     </div>
 </template>
+<style>
+.img-fade{
+-webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 70%);
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 95%);
+  display: flex;
+  margin: 0 auto;
+
+}</style>

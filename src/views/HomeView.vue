@@ -27,7 +27,7 @@ onMounted(() => {
       <div class="outline"><span></span></div>
     </div>
   </transition>
-  <div class="flex flex-col w-full gap-32 mt-[150px] overflow-x-hidden">
+  <div class="flex flex-col w-full gap-32 pt-[200px] overflow-x-hidden">
     <!-- navbar -->
     <navbar></navbar>
     <!-- navbar Ended -->
