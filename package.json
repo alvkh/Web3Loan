@@ -4,15 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@wagmi/core": "^1.4.13",
+    "@web3modal/wagmi": "^3.5.3",
     "aos": "^2.3.4",
+    "ethers": "^5.7.2",
     "pinia": "^2.1.7",
     "sass": "^1.69.5",
     "scss": "^0.2.4",
+    "viem": "^1.21.4",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5",
     "web3": "^4.3.0"

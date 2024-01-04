@@ -39,7 +39,5 @@
 .img-fade{
 -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 70%);
   mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 95%);
-  display: flex;
-  margin: 0 auto;
 
 }</style>

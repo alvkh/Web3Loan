@@ -64,7 +64,7 @@ onMounted(() => {
       <div class="w-[44%] relative flex flex-col">
         <div class="w-full wow fade">
                     <div class="relative z-30 wow fadeInUp" data-wow-delay="0.8s">
-                        <img class="imagerotate1" src="../assets/img/hero-Artizzens-1.png" alt="" >
+                        <img class="top-0 imagerotate1 img-fade rounded-full " src="../assets/img/main.png" alt="" >
                    </div>
                    <div class="relative z-10 wow fadeInUp" data-wow-delay="0.9s">
                        <img class="imagerotate2" src="../assets/img/hero-Artizzens-2.png" alt="" >
@@ -262,4 +262,9 @@ behavior:</p>
 .v-leave-to {
   opacity: 0;
 }
+.img-fade{
+-webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 70%);
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 45%);
+}
+
 </style>
