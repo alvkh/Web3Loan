@@ -8,8 +8,8 @@
     </div>
   </transition>
   <div class="flex flex-col mt-[200px] gap-10 w-[90%] mx-auto">
-    <div class="flex w-full justify-around items-start">
-      <div class="flex flex-col gap-6 w-[33%] items-center justify-center">
+    <div class="flex lg:flex-row flex-col gap-10 lg:gap-0 w-full lg:justify-around lg:items-start">
+      <div class="flex flex-col gap-6 lg:w-[33%] items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -33,7 +33,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col gap-6 w-[33%] items-center justify-center">
+      <div class="flex flex-col gap-6 lg:w-[33%] items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -57,7 +57,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col gap-6 w-[33%] items-center justify-center">
+      <div class="flex flex-col gap-6 lg:w-[33%] items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -84,10 +84,10 @@
       </div>
     </div>
     <div class="flex flex-col gap-6 py-10">
-        <div class="flex p-6 justify-between gap-4">
-            <input type="text" class="outline-none focus:outline-none p-4 rounded-lg font-Oswald-Regular bg-transparent border-gray-600 w-[33%] border" placeholder="Full Name">
-            <input type="text" class="outline-none focus:outline-none p-4 rounded-lg font-Oswald-Regular bg-transparent border-gray-600 w-[33%] border" placeholder="Email Address">
-            <input type="text" class="outline-none focus:outline-none p-4 rounded-lg font-Oswald-Regular bg-transparent border-gray-600 w-[33%] border" placeholder="Phone Number">
+        <div class="flex lg:flex-row flex-col lg:p-6 justify-between gap-4">
+            <input type="text" class="outline-none focus:outline-none p-4 rounded-lg font-Oswald-Regular bg-transparent border-gray-600 lg:w-[33%] border" placeholder="Full Name">
+            <input type="text" class="outline-none focus:outline-none p-4 rounded-lg font-Oswald-Regular bg-transparent border-gray-600 lg:w-[33%] border" placeholder="Email Address">
+            <input type="text" class="outline-none focus:outline-none p-4 rounded-lg font-Oswald-Regular bg-transparent border-gray-600 lg:w-[33%] border" placeholder="Phone Number">
         </div>
         <textarea name="" id="" cols="30"  rows="10" class="outline-none resize-none focus:outline-none p-4 rounded-lg font-Oswald-Regular bg-transparent border border-gray-600 w-[99%] mx-auto" placeholder="Your Message ..."></textarea>
         <button class="px-4 py-3 font-Oswald-Regular border-gray-700 border tracking-widest  w-fit rounded-3xl hover:bg-blue-500 transition-all  mx-auto text-gray-300 ">Send Message</button>

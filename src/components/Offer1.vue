@@ -1,8 +1,8 @@
 <template>
-<div class="container1 w-full opacity-75 ">
+<div class="container1 opacity-75 ">
 
   <div class="gradient1-cards">
-    <div class="card">
+    <div class="">
       <div class="container1-card bg-green-box flex flex-col gap-4">
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="1" y="1" width="118" height="118" rx="24" fill="url(#paint0_linear_1366_4547)" fill-opacity="0.15" stroke="url(#paint1_radial_1366_4547)" stroke-width="2"></rect>
@@ -45,12 +45,14 @@
 }
 
 .container1-card {
+  min-height: 300px;
   position: relative;
   border: 2px solid transparent;
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
   border-radius: 45px;
-  padding: 40px;
+  padding: 20px;
+  margin: 10px;
   img {
     margin-bottom: 32px;
   }

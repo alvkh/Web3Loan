@@ -59,12 +59,16 @@
 }
 
 .container-card {
+  min-height: 300px;
+
+
   position: relative;
   border: 2px solid transparent;
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
   border-radius: 45px;
-  padding: 40px;
+  padding: 20px;
+  margin: 10px;
   img {
     margin-bottom: 32px;
   }
